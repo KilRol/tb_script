@@ -29,44 +29,10 @@
       async=""
       src="https://bitrix.info/ba.js"
     ></script>
-    <script type="text/javascript">
-      if (!window.BX) window.BX = {};
-      if (!window.BX.message)
-        window.BX.message = function (mess) {
-          if (typeof mess === "object") {
-            for (let i in mess) {
-              BX.message[i] = mess[i];
-            }
-            return true;
-          }
-        };
-    </script>
-    <script type="text/javascript">
-      (window.BX || top.BX).message({
-        JS_CORE_LOADING: "Загрузка...",
-        JS_CORE_NO_DATA: "- Нет данных -",
-        JS_CORE_WINDOW_CLOSE: "Закрыть",
-        JS_CORE_WINDOW_EXPAND: "Развернуть",
-        JS_CORE_WINDOW_NARROW: "Свернуть в окно",
-        JS_CORE_WINDOW_SAVE: "Сохранить",
-        JS_CORE_WINDOW_CANCEL: "Отменить",
-        JS_CORE_WINDOW_CONTINUE: "Продолжить",
-        JS_CORE_H: "ч",
-        JS_CORE_M: "м",
-        JS_CORE_S: "с",
-        JSADM_AI_HIDE_EXTRA: "Скрыть лишние",
-        JSADM_AI_ALL_NOTIF: "Показать все",
-        JSADM_AUTH_REQ: "Требуется авторизация!",
-        JS_CORE_WINDOW_AUTH: "Войти",
-        JS_CORE_IMAGE_FULL: "Полный размер",
-      });
-    </script>
-
     <script
       type="text/javascript"
       src="https://tverbasket.ru/bitrix/js/main/core/core.min.js?1663565835216421"
     ></script>
-
     <script>
       BX.setJSList([
         "https://tverbasket.ru/bitrix/js/main/core/core_ajax.js",
@@ -214,6 +180,10 @@
     <style type="text/css">
       .fancybox-margin {
         margin-right: 17px;
+      }
+      body {
+        background-color: #fafafa;
+        overflow-y: scroll;
       }
     </style>
   </head>

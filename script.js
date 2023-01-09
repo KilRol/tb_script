@@ -33,7 +33,6 @@ function fillThead() {
 }
 
 function getTbody(json) {
-  console.log("JSON", json);
   const trs = [];
 
   for (const res of Object.values(json)) {
@@ -188,7 +187,6 @@ function getTable(results) {
   const tbody = getTbody(jsonedResult);
 
   table.appendChild(thead);
-  console.log(tbody.children);
   table.appendChild(tbody);
   tableWrapper.appendChild(table);
   return tableWrapper;
@@ -228,7 +226,6 @@ function getGridTbody(results) {
   const tbody = document.createElement("tbody");
   const json = getJSONGrid(results);
   const jsonedResult = getResults(results);
-  console.log(json);
   Object.keys(jsonedResult).forEach((key1, index) => {
     const tr = document.createElement("tr");
     const pos_td = document.createElement("td");
@@ -266,27 +263,10 @@ function getGridTbody(results) {
     tbody.appendChild(tr);
   });
 
-  for (const key1 of Object.keys(json)) {
-    for (const key2 of Object.keys(json[key1])) {
-      console.log(json[key1][key2]);
-    }
-  }
-  console.log(json);
-
   return tbody;
 }
 
-async function printElement() {
-  const root = document.querySelector("#root");
-
-  const main = document.createElement("div");
-
-  // const results = await getJSON("mdbl2013_score.json");
-  const results = await getJSON("mdbl2011_score.json");
-  const jsonedResult = getResults(results);
-
-  const table = getTable(results);
-
+function getGridTableButton() {
   const show_btn = document.createElement("div");
   show_btn.classList = "results__item-more-wrap";
 
@@ -296,10 +276,10 @@ async function printElement() {
   show_btn_link.textContent = "Результаты матчей";
 
   show_btn.appendChild(show_btn_link);
+  return show_btn;
+}
 
-  main.appendChild(table);
-  main.appendChild(show_btn);
-
+function getMainGrid(results, jsonedResult) {
   const grid = document.createElement("div");
   grid.classList = "table-wrap collapse-item__body";
   grid.style.display = "none";
@@ -312,18 +292,137 @@ async function printElement() {
   gridTable.appendChild(gridTableThead);
   gridTable.appendChild(gridTableTbody);
   grid.appendChild(gridTable);
-  main.appendChild(grid);
+  return grid;
+}
 
-  main.style.display = "flex";
-  main.style.flexDirection = "column";
-  main.style.justifyContent = "space-between";
-  root.appendChild(main);
+async function getMainTable() {
+  const tableWrapper = document.createElement("div");
+  // const results = await getJSON("mdbl2013_score.json");
+  const results = await getJSON("mdbl2011_score.json");
+  const jsonedResult = getResults(results);
+
+  const table = getTable(results);
+  const show_btn = getGridTableButton();
+  const grid = getMainGrid(results, jsonedResult);
+  tableWrapper.appendChild(table);
+  tableWrapper.appendChild(show_btn);
+  tableWrapper.appendChild(grid);
+
+  tableWrapper.style.width = "60%";
+  tableWrapper.style.display = "flex";
+  tableWrapper.style.flexDirection = "column";
+  tableWrapper.style.justifyContent = "space-between";
+  tableWrapper.style.alignItems = "center";
 
   const textMain = document.createElement("textarea");
-  textMain.innerText = main.innerHTML;
-  textMain.cols = 40;
+  textMain.innerText = tableWrapper.innerHTML;
+  textMain.style.width = "500px";
   textMain.style.height = "400px";
-  main.appendChild(textMain);
+
+  const wrapper = document.createElement("div");
+  wrapper.style.display = "flex";
+  wrapper.style.justifyContent = "space-around";
+
+  wrapper.appendChild(tableWrapper);
+  wrapper.appendChild(textMain);
+
+  return wrapper;
+}
+
+function getCard(item) {
+  const card = document.createElement("div");
+  card.style.width = "500px";
+
+  card.style.display = "flex";
+  card.style.flexDirection = "column";
+  card.style.alignItems = "center";
+
+  const date = document.createElement("div");
+  date.style.width = "100%";
+  date.style.display = "flex";
+  date.style.justifyContent = "space-around";
+
+  const time_b = document.createElement("span");
+  const date_b = document.createElement("span");
+
+  date_b.innerText = item.date;
+  time_b.innerText = item.time;
+
+  date.appendChild(date_b);
+  date.appendChild(time_b);
+
+  const score = document.createElement("div");
+  const teams = document.createElement("div");
+  teams.style.display = "flex";
+  teams.style.justifyContent = "space-around";
+
+  const team1 = document.createElement("div");
+  const team2 = document.createElement("div");
+
+  team1.innerText = item.team1;
+  team2.innerText = item.team2;
+
+  teams.appendChild(team1);
+  teams.appendChild(team2);
+
+  score.innerText = `${item.score1}:${item.score2}`;
+
+  card.appendChild(date);
+  card.appendChild(teams);
+  card.appendChild(score);
+
+  return card;
+}
+
+function getResultsTable(results) {
+  const wrapper = results.reduce((acc, item) => {
+    if (item.team2) {
+      acc.appendChild(getCard(item));
+    }
+    return acc;
+  }, document.createElement("div"));
+
+  return wrapper;
+}
+
+async function getSecondaryTable() {
+  const results = await getJSON("mdbl2011_score.json");
+
+  const resultsTable = getResultsTable(results);
+
+  const wrapper = document.createElement("div");
+
+  wrapper.style.display = "flex";
+  wrapper.style.justifyContent = "space-around";
+
+  const tableWrapper = document.createElement("div");
+
+  tableWrapper.style.width = "60%";
+  tableWrapper.style.display = "flex";
+  tableWrapper.style.flexDirection = "column";
+  tableWrapper.style.justifyContent = "space-between";
+  tableWrapper.style.alignItems = "center";
+
+  tableWrapper.appendChild(resultsTable);
+
+  const textMain = document.createElement("textarea");
+  textMain.innerText = tableWrapper.innerHTML;
+  textMain.style.width = "500px";
+  textMain.style.height = "400px";
+
+  wrapper.appendChild(tableWrapper);
+  wrapper.appendChild(textMain);
+
+  return wrapper;
+}
+
+async function printElement() {
+  const root = document.querySelector("#root");
+
+  const main = await getMainTable();
+  const secondary = await getSecondaryTable();
+  root.appendChild(main);
+  root.appendChild(secondary);
 }
 
 printElement();
