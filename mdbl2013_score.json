@@ -1,0 +1,114 @@
+[
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "БК «Тверь»",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ЗАТО «Озёрный»",
+    "location": "ЗАТО «Озёрный»"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Лобня",
+    "location": "Лобня"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Русичи",
+    "location": "Курск"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Бежецк",
+    "location": "Бежецк"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Единство",
+    "location": "Рязань"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "БК «Стремление»",
+    "location": "Москва"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "СШ «Лидер»",
+    "location": "Тверь"
+  },
+  {
+    "team1": "БК «Тверь»",
+    "team2": "Бежецк",
+    "score1": 38,
+    "score2": 17
+  },
+  {
+    "team1": "ЗАТО «Озёрный»",
+    "team2": "Русичи",
+    "score1": 30,
+    "score2": 6
+  },
+  {
+    "team1": "БК «Стремление»",
+    "team2": "Лобня",
+    "score1": 31,
+    "score2": 37
+  },
+  {
+    "team1": "СШ «Лидер»",
+    "team2": "Единство",
+    "score1": 11,
+    "score2": 30
+  },
+  {
+    "team1": "ЗАТО «Озёрный»",
+    "team2": "Лобня",
+    "score1": 35,
+    "score2": 21
+  },
+  {
+    "team1": "БК «Стремление»",
+    "team2": "Бежецк",
+    "score1": 44,
+    "score2": 23
+  },
+  {
+    "team1": "Русичи",
+    "team2": "Единство",
+    "score1": 38,
+    "score2": 12
+  },
+  {
+    "team1": "Лобня",
+    "team2": "СШ «Лидер»",
+    "score1": 25,
+    "score2": 15
+  },
+  {
+    "team1": "Бежецк",
+    "team2": "Единство",
+    "score1": 12,
+    "score2": 18
+  },
+  {
+    "team1": "Русичи",
+    "team2": "СШ «Лидер»",
+    "score1": 43,
+    "score2": 8
+  },
+  {
+    "team1": "БК «Тверь»",
+    "team2": "ЗАТО «Озёрный»",
+    "score1": 7,
+    "score2": 43
+  },
+  {
+    "team1": "Русичи",
+    "team2": "Лобня",
+    "score1": 15,
+    "score2": 43
+  }
+]
