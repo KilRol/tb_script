@@ -281,8 +281,8 @@ async function printElement() {
 
   const main = document.createElement("div");
 
-  // const results = await getJSON("mdbl2013_score.json");
-  const results = await getJSON("mdbl2011_score.json");
+  const results = await getJSON("mdbl2013_score.json");
+  // const results = await getJSON("mdbl2011_score.json");
   const jsonedResult = getResults(results);
 
   const table = getTable(results);
