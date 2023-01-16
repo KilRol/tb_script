@@ -267,6 +267,19 @@ function getGridTbody(results) {
 }
 
 function getGridTableButton() {
+=======
+async function printElement() {
+  const root = document.querySelector("#root");
+
+  const main = document.createElement("div");
+
+  const results = await getJSON("mdbl2013_score.json");
+  // const results = await getJSON("mdbl2011_score.json");
+  const jsonedResult = getResults(results);
+
+  const table = getTable(results);
+
+
   const show_btn = document.createElement("div");
   show_btn.classList = "results__item-more-wrap";
 
