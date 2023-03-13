@@ -1,0 +1,75 @@
+[
+    {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "Лобня",
+        "location": "Лобня"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "ЗАТО «Озёрный»",
+        "location": "ЗАТО «Озёрный»"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "БК «Стремление»",
+        "location": "Москва"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "Русичи",
+        "location": "Курск"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "БК «Тверь»",
+        "location": "Тверь"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "Единство",
+        "location": "Рязань"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "Бежецк",
+        "location": "Бежецк"
+      },
+      {
+        "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+        "team1": "СШ «Лидер»",
+        "location": "Тверь"
+      }, 
+      {
+        "date": "31.03.2023",
+        "time": "14:00",
+        "team1": "Русичи",
+        "team2": "БК «Тверь»",
+        "score1": "-",
+        "score2": "-"
+      },
+      {
+        "date": "31.03.2023",
+        "time": "15:45",
+        "team1": "Лобня",
+        "team2": "СШ «Лидер»",
+        "score1": "-",
+        "score2": "-"
+      },
+      {
+        "date": "31.03.2023",
+        "time": "17:30",
+        "team1": "БК «Стремление»",
+        "team2": "Единство",
+        "score1": "-",
+        "score2": "-"
+      },
+      {
+        "date": "01.04.2023",
+        "time": "10:00",
+        "team1": "ЗАТО «Озёрный»",
+        "team2": "Бежецк",
+        "score1": "-",
+        "score2": "-"
+      }
+]
+
