@@ -1,0 +1,192 @@
+[
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Нелидово",
+    "location": "Нелидово"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Удомля",
+    "location": "Удомля"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Ржев",
+    "location": "Ржев"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ТГТУ",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Old Stars",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ВА ВКО",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ТПЭК",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ТГМУ",
+    "location": "Тверь"
+  },
+  {
+    "team1": "ТГТУ",
+    "team2": "ТПЭК",
+    "score1": 111,
+    "score2": 60
+  },
+  {
+    "team1": "Ржев",
+    "team2": "ВА ВКО",
+    "score1": 62,
+    "score2": 48
+  },
+  {
+    "team1": "ТГМУ",
+    "team2": "ВА ВКО",
+    "score1": 35,
+    "score2": 34
+  },
+  {
+    "team1": "ТПЭК",
+    "team2": "ВА ВКО",
+    "score1": 54,
+    "score2": 43
+  },
+  {
+    "team1": "ТГМУ",
+    "team2": "ТПЭК",
+    "score1": 42,
+    "score2": 57
+  },
+  {
+    "team1": "Нелидово",
+    "team2": "ТПЭК",
+    "score1": 66,
+    "score2": 41
+  },
+  {
+    "team1": "ТГТУ",
+    "team2": "Нелидово",
+    "score1": 73,
+    "score2": 62
+  },
+  {
+    "team1": "ВА ВКО",
+    "team2": "Удомля",
+    "score1": 49,
+    "score2": 77
+  },
+  {
+    "team1": "ТГМУ",
+    "team2": "ТГТУ",
+    "score1": 32,
+    "score2": 83
+  },
+  {
+    "team1": "ТГМУ",
+    "team2": "Old Stars",
+    "score1": 25,
+    "score2": 62
+  },
+  {
+    "team1": "ТПЭК",
+    "team2": "Old Stars",
+    "score1": 35,
+    "score2": 80
+  },
+  {
+    "team1": "Нелидово",
+    "team2": "ВА ВКО",
+    "score1": 73,
+    "score2": 18
+  },
+  {
+    "team1": "ТГТУ",
+    "team2": "ВА ВКО",
+    "score1": 92,
+    "score2": 22
+  },
+  {
+    "team1": "ТГТУ",
+    "team2": "Old Stars",
+    "score1": 73,
+    "score2": 88
+  },
+  {
+    "team1": "Нелидово",
+    "team2": "Удомля",
+    "score1": 53,
+    "score2": 46
+  },
+  {
+    "team1": "Удомля",
+    "team2": "ТГМУ",
+    "score1": 73,
+    "score2": 27
+  },
+  {
+    "team1": "Ржев",
+    "team2": "Удомля",
+    "score1": 43,
+    "score2": 64
+  },
+  {
+    "team1": "ТГТУ",
+    "team2": "Удомля",
+    "score1": 76,
+    "score2": 72
+  },
+  {
+    "team1": "Ржев",
+    "team2": "Old Stars",
+    "score1": 46,
+    "score2": 63
+  },
+  {
+    "team1": "ТГМУ",
+    "team2": "Ржев",
+    "score1": 83,
+    "score2": 65
+  },
+  {
+    "team1": "Нелидово",
+    "team2": "Old Stars",
+    "score1": 55,
+    "score2": 65
+  },
+  {
+    "team1": "ВА ВКО",
+    "team2": "Old Stars",
+    "score1": 18,
+    "score2": 78
+  },
+  {
+    "team1": "Нелидово",
+    "team2": "ТГМУ",
+    "score1": 78,
+    "score2": 29
+  },
+  {
+    "team1": "ТПЭК",
+    "team2": "Ржев",
+    "score1": 61,
+    "score2": 66
+  },
+  {
+    "team1": "Ржев",
+    "team2": "Нелидово",
+    "score1": 21,
+    "score2": 86
+  }
+]

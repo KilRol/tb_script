@@ -1,0 +1,62 @@
+[
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "БК «Тверь»",
+    "location": "Тверь"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Единство",
+    "location": "Рязань"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Бежецк",
+    "location": "Бежецк"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "СШ «Лидер»",
+    "location": "Тверь"
+  },
+  {
+    "date": "28.01.23",
+    "time": "11:30",
+    "team1": "Единство",
+    "team2": "Бежецк",
+    "score1": 16,
+    "score2": 22
+  },
+  {
+    "date": "28.01.23",
+    "time": "14:30",
+    "team1": "БК «Тверь»",
+    "team2": "Бежецк",
+    "score1": 54,
+    "score2": 3
+  },
+  {
+    "date": "28.01.23",
+    "time": "19:00",
+    "team1": "Единство",
+    "team2": "БК «Тверь»",
+    "score1": 13,
+    "score2": 41
+  },
+  {
+    "date": "29.01.23",
+    "time": "11:00",
+    "team1": "Единство",
+    "team2": "СШ «Лидер»",
+    "score1": 29,
+    "score2": 22
+  },
+  {
+    "date": "29.01.23",
+    "time": "14:00",
+    "team1": "БК «Тверь»",
+    "team2": "СШ «Лидер»",
+    "score1": 62,
+    "score2": 10
+  }
+]

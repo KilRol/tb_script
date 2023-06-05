@@ -1,0 +1,63 @@
+[
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "Лобня",
+    "location": "Лобня"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "ТМ «Мякиши»",
+    "location": "Боровичи"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "БК «Спарта»",
+    "location": "Химки"
+  },
+  {
+    "img": "/upload/medialibrary/eb3/eb38e0ace1c609f86791c29368eb6a21.png",
+    "team1": "БК «Русичи»",
+    "location": "Курск"
+  },
+
+  {
+    "date": "21.01.23",
+    "time": "12:00",
+    "team1": "БК «Спарта»",
+    "team2": "БК «Русичи»",
+    "score1": 25,
+    "score2": 51
+  },
+  {
+    "date": "21.01.23",
+    "time": "15:00",
+    "team1": "ТМ «Мякиши»",
+    "team2": "БК «Русичи»",
+    "score1": 56,
+    "score2": 31
+  },
+  {
+    "date": "21.01.23",
+    "time": "18:00",
+    "team1": "ТМ «Мякиши»",
+    "team2": "БК «Спарта»",
+    "score1": 51,
+    "score2": 27
+  },
+  {
+    "date": "22.01.23",
+    "time": "01:00",
+    "team1": "Лобня",
+    "team2": "ТМ «Мякиши»",
+    "score1": 50,
+    "score2": 66
+  },
+  {
+    "date": "22.01.23",
+    "time": "02:00",
+    "team1": "Лобня",
+    "team2": "БК «Русичи»",
+    "score1": 55,
+    "score2": 64
+  }
+]
